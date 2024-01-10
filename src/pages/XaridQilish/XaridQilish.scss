@@ -1,0 +1,129 @@
+.shop {
+    padding-top: var(--height-header);
+
+    section {
+        .shop_inner {
+            width: 100%;
+            padding: 1rem;
+            position: relative;
+
+            .shop_header {
+                width: 100%;
+                border-bottom: solid 2px #ccc;
+                padding: .4rem;
+
+                h2 {
+                    display: none;
+                }
+                
+                .shop_header_inner {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    background: #fff;
+                    z-index: 110;
+
+                    .shop_btns {
+                        background: transparent;
+                        font-size: var(--shop-btn);
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            .shop_choos {
+                width: 100%;
+                max-height: 80vh;
+                position: absolute;
+                top: 3.4rem;
+                left: 0;
+                background: #fff;
+                overflow: hidden;
+                transition: .3s ease;
+            }
+
+            .shop_lsit {
+                // padding-top: 2rem;
+                width: 100%;
+                height: 76vh;
+                overflow-y: auto;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-around;
+                margin-top: 1rem;
+                
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width: 550px) {
+    .shop {
+    
+        section {
+            .shop_inner {
+                padding: 0rem;
+
+                .shop_header {
+                    padding: .2rem;
+                }
+
+                .shop_choos {
+                    top: 1.4rem;
+                    max-height: 60vh
+                }
+            }
+        }
+    }       
+}
+
+@media(max-width: 450px) {
+    .shop {
+    
+        section {
+            .shop_inner {
+
+                .shop_header {
+                    position: relative;
+
+                    h2 {
+                        display: block;
+                        text-align: center;
+                        font-size: .9rem;
+                    }
+
+                    .shop_header_inner {
+                        position: absolute;
+                        top: 1.6rem;
+                        left: 0;
+                        width: 100%;
+                        max-height: 0vh;
+                        display: block;
+                        border-radius: 0 0 .6rem .6rem;
+                        z-index: 1;
+                        overflow: hidden;
+                        transition: all .4s ease;
+
+                        button {
+                            width: 100%;
+                            padding: .3rem;
+
+                            &:not(:last-child){
+                                border-bottom: 1px solid #ccc;
+                            }
+                        }
+                    }
+                }
+
+                .shop_choos {
+                    max-height: 70vh
+                }
+            }
+        }
+    }       
+}

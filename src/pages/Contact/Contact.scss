@@ -1,0 +1,180 @@
+.contact {
+    padding-top: var(--height-header);
+
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .contact_inner {
+            width: 80%;
+            padding: 1rem;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+
+            input {
+                width: var(--contact-inner-width);
+                border: solid 1px var(--color-title);
+                padding: .6rem;
+                font-size: 1.1rem;
+                border-radius: .4rem;
+                margin-bottom: .6rem;
+            }
+
+            textarea {
+                width: var(--contact-inner-width);
+                height: 6rem;
+                border: solid 1px var(--color-title);
+                border-radius: .4rem;
+                padding: .4rem;
+            }
+
+            .contact_tarmoqlar {
+                width: var(--contact-inner-width);
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin: 1rem 0;
+
+                .contact_call {
+                    display: flex;
+
+                    svg {
+                        font-size: 1.2rem;
+                        color: var(--color-title-mor-black);
+                        margin-right: 1rem;
+                    }
+
+                    p {
+                        font-size: 1.1rem;
+                        color: var(--color-title-mor-black);
+                    }
+                }
+
+                .contact_tarmoq {
+                    display: flex;
+                    align-items: center;
+
+                    svg {
+                        font-size: 1.2rem;
+                        margin: 0 .6rem;
+                        color: var(--color-title-mor-black);
+                        height: 1.4rem;
+
+                        &:hover {
+                            color: #514011;
+                        }
+                    }
+                }
+            }
+
+            .contact_btns {
+                width: 60%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                button {
+                    font-size: 1.1rem;
+                    width: 10rem;
+                    height: 2.6rem;
+                    border: solid 1px var(--color-title-mor-black);
+                    margin: 0 .6rem;
+                    transition: .2s ease;
+                    
+                    &:hover {
+                        background: #d1c9b1;
+                    }
+
+                    &:first-child {
+                        border-radius: .4rem 0 0 .4rem;
+                    }
+
+                    &:last-child {
+                        border-radius: 0 .4rem .4rem 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .contact {
+        section {
+            .contact_inner {
+                width: 100%;
+
+                input {
+                    padding: .4rem;
+                    font-size: .9rem;
+                }
+
+                textarea {
+                    height: 5rem;
+                }
+
+                .contact_btns {
+                    button {
+                        width: 8rem; 
+                        height: 2.2rem;
+                        font-size: .9rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 450px) {
+    .contact {
+        section {
+            .contact_inner {
+                padding: 1rem 0rem;
+
+                input {
+                    padding: .3rem;
+                    font-size: .7rem;
+                    border-radius: .2rem;
+                }
+                
+                textarea {
+                    height: 3rem;
+                    padding: .3rem;
+                    font-size: .7rem;
+                    border-radius: .2rem;
+                }
+
+                .contact_tarmoqlar {
+                    .contact_call {
+                        svg {
+                            margin-right: .6rem;
+                        }
+
+                        p {
+                            font-size: .8rem;
+                        }
+                    }
+
+                    .contact_tarmoq {
+                        svg {
+                            font-size: 1rem;
+                            margin: 0 .3rem;
+                        }
+                    }
+                }
+
+                .contact_btns {
+                    width: 100%;
+
+                    button {
+                        width: 7rem; 
+                        height: 2rem;
+                        font-size: .7rem;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,86 @@
+export const stol = [
+    {
+        id: 1,
+        dirLink: 'Stol-1/',
+        color: ['#6d4117', 'black', 'blue', 'yellow'],
+        link: ['Stol-1.jpg', 'Stol-1 black.jpg', 'Stol-1 blue.jpg', 'Stol-1 yellow.jpg'],
+    },
+    {
+        id: 2,
+        dirLink: 'Stol-2/',
+        color: ['#6d4117', 'black', 'blue', 'yellow'],
+        link: ['Stol-2.jpg', 'Stol-2 black.jpg', 'Stol-2 blue.jpg', 'Stol-2 yellow.jpg'],
+    },
+    {
+        id: 3,
+        dirLink: 'Stol-3/',
+        color: ['#6d4117', 'black', 'blue', 'yellow'],
+        link: ['Stol-3.jpg', 'Stol-3 black.jpg', 'Stol-3 blue.jpg', 'Stol-3 yellow.jpg'],
+    },
+    {
+        id: 4,
+        dirLink: 'Stol-4/',
+        color: ['#6d4117', 'black', 'blue', 'yellow'],
+        link: ['Stol-4.jpg', 'Stol-4 black.jpg', 'Stol-4 blue.jpg', 'Stol-4 yellow.jpg'],
+    },
+    {
+        id: 5,
+        dirLink: '',
+        color: [],
+        link: 'Stol-5.webp',
+    },
+    {
+        id: 6,
+        dirLink: '',
+        color: [],
+        link: 'Stol-6.jpg',
+    },
+    {
+        id: 7,
+        dirLink: '',
+        color: [],
+        link: 'Stol-7.webp',
+    },
+    {
+        id: 8,
+        dirLink: '',
+        color: [],
+        link: 'Stol-8.jpg',
+    },
+    {
+        id: 9,
+        dirLink: '',
+        color: [],
+        link: 'Stol-9.jpg',
+    },
+    {
+        id: 10,
+        dirLink: '',
+        color: [],
+        link: 'Stol-10.jpg',
+    },
+    {
+        id: 11,
+        dirLink: '',
+        color: [],
+        link: 'Stol-11.jpg',
+    },
+    {
+        id: 12,
+        dirLink: '',
+        color: [],
+        link: 'Stol-12.jpg',
+    },
+    {
+        id: 13,
+        dirLink: '',
+        color: [],
+        link: 'Stol-13.jpg',
+    },
+    {
+        id: 14,
+        dirLink: '',
+        color: [],
+        link: 'Stol-14.jpg',
+    },
+]

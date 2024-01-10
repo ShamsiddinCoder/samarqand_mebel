@@ -1,0 +1,254 @@
+.service_box {
+    width: 60%;
+    border: solid 1px #ccc;
+    text-align: center;
+    padding: 1rem;
+    border-radius: .6rem;
+    box-shadow: 0 0 16px 4px rgba(0,0,0,0.20);
+
+    h2 {
+        margin-bottom: 1rem;
+    }
+
+    .service_box_inputs {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+
+        .service_buttons {
+            width: 10%;
+            font-size: 1rem;
+            font-weight: 600;
+            border: solid 1px #ccc;
+            border-radius: 0 .4rem .4rem 0;
+            height: 2.9rem;
+        }
+
+        input {
+            width: 100%;
+            font-size: 1rem;
+            border: solid 1px #ccc;
+            padding: .4rem;
+            border-radius: .4rem;
+            margin-bottom: .8rem;
+        }
+
+        .service_box_choose {
+            height: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: .8rem;
+            position: relative;
+
+            input {
+                width: 48%;
+                height: 100%;
+                margin: 0;
+                border-radius: .4rem 0 0 .4rem;
+            }
+
+            .service_box_chousen {
+                position: absolute;
+                top: -14rem;
+                right: 40%;
+                max-height: 86vh;
+                background: #fff;
+                border-radius: .4rem;
+                overflow-y: auto;
+                transition: .4s ease;
+
+                &::-webkit-scrollbar{
+                    display: none;
+                }
+            }
+
+            .service_box_usta {
+                width: 48%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                border: solid 1px #ccc;
+                justify-content: space-between;
+                border-radius: 0 .4rem .4rem 0;
+
+                .service_box_usta_img {
+                    height: 2.6rem;
+                    width: 2.6rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    overflow: hidden;
+
+                    img {
+                        height: 100%;
+                    }
+                }
+            }
+        }
+
+        .service_posts {
+            max-width: 100%;
+            padding: .4rem;
+            border: solid 1px #ccc;
+            border-radius: .4rem;
+            height: 6rem;
+        }
+
+        .service_box_btns {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 1rem;
+
+            .btn-1 {
+                width: 48%;
+                height: 2.6rem;
+                border-radius: .4rem 0 0 .4rem;
+            }
+
+            .btn-2 {
+                height: 2.6rem;
+                width: 48%;
+            }
+        }
+    }
+}
+
+// service_boxes start
+.service_boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    padding: .4rem;
+    user-select: none;
+    transition: .2s ease;
+    overflow: hidden;
+
+    &:not(:last-child) {
+        border-bottom: solid 2px #ccc;
+    }
+
+    .service_boxes_titles {
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+
+        h3 {
+            font-size: .8rem;
+        }
+
+        p {
+            font-size: .9rem;
+        }
+    }
+
+    .service_boxes_img {
+        height: 3rem;
+        width: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        border-radius: 50%;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    &:hover {
+        background: rgb(201, 201, 201);
+    }
+}
+// service_boxes end
+
+
+@media(max-width: 1024px){
+    .service_box {
+        .service_box_inputs {
+            .service_box_choose {
+                .service_box_usta {
+                    .service_box_usta_title {
+                        h2 {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 768px){
+    .service_box {
+        width: 80%;
+
+        h2 {
+            font-size: 1.1rem;
+        }
+
+        .service_box_inputs {
+            .service_box_choose {
+                .service_box_usta {
+                    .service_box_usta_title {
+                        h2 {
+                            font-size: .6rem;
+                        }
+
+                        h4 {
+                            font-size: .8rem;
+                        }
+
+                        p {
+                            font-size: .7rem;
+                        }
+                    }
+                }
+            }
+
+            .service_box_btns {
+                .service_buttons {
+                    font-size: .8rem;
+                    height: 2rem;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 500px){
+    .service_box {
+        width: 100%;
+
+        .service_box_inputs {
+            input {
+                font-size: .8rem;
+                padding: .3rem;
+            }
+
+            .service_box_choose {
+                flex-flow: column;
+                height: 100%;
+
+                input {
+                    width: 100%;
+                    border-radius: .4rem;
+                    margin-bottom: .7rem;
+                }
+
+                .service_box_usta {
+                    width: 100%;
+                    border-radius: .4rem;
+                    overflow: hidden;
+
+                    button {
+                        height: 2.6rem;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.sliderJobs {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.76);
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button {
+        position: absolute;
+        top: 1.4rem;
+        right: 1.4rem;
+        background: transparent;
+
+        svg {
+            font-size: 2.6rem;
+            color: #fff;
+        }
+    }
+
+    .sliderjobs_inner {
+        width: 94%;
+        height: 97vh;
+        // border: solid 2px #ccc;
+        overflow: hidden;
+        display: flex;
+    }
+}
+
+
+
+.sliderjobsbox {
+    height: 100%;
+    padding: 0 8px;
+
+    img {
+        width: 100%;
+    }
+}

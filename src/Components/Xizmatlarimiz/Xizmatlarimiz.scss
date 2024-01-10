@@ -1,0 +1,119 @@
+.xizmatlar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: var(--height-slide);
+
+    .xizmatlar_title {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+
+        .xizmatlar_title_inner {
+            width: 80%;
+            padding: 2rem;
+            display: flex;
+            flex-flow: column;
+            align-items: flex-end;
+
+            h2 {
+                font-size: 2.2rem;
+                margin-bottom: 1rem;
+            }
+
+            p {
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    .xizmatlar_img {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        border-left: solid 2px #ccc;
+
+        .xizmatlar_img_inner {
+            width: 80%;
+            margin-left: 1rem;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+@media(max-width: 1024px) {
+    .xizmatlar {
+        .xizmatlar_title {
+            .xizmatlar_title_inner {
+                h2 {
+                    font-size: 1.8rem;
+                    margin-bottom: .6rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 708px) {
+    .xizmatlar {
+        .xizmatlar_title {
+            .xizmatlar_title_inner {
+                h2 {
+                    font-size: 1.2rem;
+                    margin-bottom: .6rem;
+                }
+
+                p {
+                    font-size: .7rem;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 532px){
+    .xizmatlar {
+    
+        .xizmatlar_title {
+    
+            .xizmatlar_title_inner {
+                width: 100%;
+                padding: .6rem;
+                align-items: center;
+            }
+        }
+    }       
+}
+
+@media(max-width: 425px){
+    .xizmatlar {
+    
+        .xizmatlar_title {
+    
+            .xizmatlar_title_inner {
+                width: 100%;
+                padding: .6rem;
+                align-items: center;
+
+                h2 {
+                    font-size: .8rem;
+                    margin-bottom: .3rem;
+                }
+
+                p {
+                    font-size: .4rem;
+                }
+            }
+        }
+    }       
+}

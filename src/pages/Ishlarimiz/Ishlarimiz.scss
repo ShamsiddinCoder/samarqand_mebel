@@ -1,0 +1,12 @@
+.jobs {
+    width: 100%;
+    padding-top: calc(var(--height-header) + 1rem);
+
+    section {
+        .jobs_inner {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}
