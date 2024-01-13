@@ -12,8 +12,8 @@ import fototem from '../assets/Team/ZwARLxzaIFXgYyMtNmUwchJK12l95AUTRIYzK0MM.png
 export const teamDate = [
     {
         id: 1,
-        fname: "Mirzayev",
-        lname: 'Shamsiddin',
+        fname: "Alexadr",
+        lname: 'Makwdonski',
         lavozim: 'Duradgor usta',
         tajriba: '2yil',
         avatar: fotoone,

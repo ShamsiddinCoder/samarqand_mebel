@@ -1,5 +1,5 @@
 import Stul from '../assets/Stul/Stul-1/Stul-1.jpg';
-import Stol from '../assets/Stol/Stol-1/Stol-1.jpg';
+import Stol from '../assets/Stol/Stol-7.webp';
 import KompStol from '../assets/kompyuter stol/komp-2.jpg';
 import OshxonaMebel from '../assets/Kuxni/Kuxni-mebel-1.jpg';
 import Ugalok from '../assets/Ugalok/ugalok-1.jpg';
@@ -18,7 +18,7 @@ export const informationData = [
         images: Stol,
         name: 'Stol',
         price: '20$',
-        colors: ['red', 'yellow', 'grey']
+        colors: []
     },
     {
         id: 3,

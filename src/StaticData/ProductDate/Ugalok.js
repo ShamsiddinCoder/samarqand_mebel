@@ -2,121 +2,181 @@ export const ugalokKatalog = [
     {
         id: 1,
         dirLink: '',
+        width: '186',
+        height: '100',
         color: [],
-        link: 'ugalok-1.jpg'
+        link: 'ugalok-1.jpg',
+        price: '130',
     },
     {
         id: 2,
         dirLink: '',
+        width: '186',
+        height: '100',
         color: [],
-        link: 'ugalok-2.jpg'
+        link: 'ugalok-2.jpg',
+        price: '130',
     },
     {
         id: 3,
         dirLink: '',
+        width: '186',
+        height: '100',
         color: [],
-        link: 'ugalok-3.jpg'
+        link: 'ugalok-3.jpg',
+        price: '130',
     },
     {
         id: 4,
         dirLink: '',
+        width: '186',
+        height: '100',
         color: [],
-        link: 'ugalok-4.jpg'
+        link: 'ugalok-4.jpg',
+        price: '130',
     },
     {
         id: 5,
         dirLink: '',
+        width: '186',
+        height: '100',
         color: [],
-        link: 'ugalok-5.jpg'
+        link: 'ugalok-5.jpg',
+        price: '130',
     },
     {
         id: 6,
         dirLink: '',
+        width: '186',
+        height: '100',
         color: [],
-        link: 'ugalok-6.jpg'
+        link: 'ugalok-6.jpg',
+        price: '130',
     },
     {
         id: 7,
         dirLink: '',
+        width: '186',
+        height: '100',
         color: [],
-        link: 'ugalok-7.jpg'
+        link: 'ugalok-7.jpg',
+        price: '130',
     },
     {
         id: 8,
         dirLink: '',
+        width: '186',
+        height: '100',
         color: [],
-        link: 'ugalok-8.jpg'
+        link: 'ugalok-8.jpg',
+        price: '130',
     },
     {
         id: 9,
         dirLink: '',
+        width: '186',
+        height: '100',
         color: [],
-        link: 'ugalok-9.jpg'
+        link: 'ugalok-9.jpg',
+        price: '130',
     },
     {
         id: 10,
         dirLink: '',
+        width: '186',
+        height: '100',
         color: [],
-        link: 'ugalok-10.jpg'
+        link: 'ugalok-10.jpg',
+        price: '130',
     },
     {
         id: 11,
         dirLink: '',
+        width: '186',
+        height: '100',
         color: [],
-        link: 'ugalok-11.jpg'
+        link: 'ugalok-11.jpg',
+        price: '130',
     },
     {
         id: 12,
         dirLink: '',
+        width: '186',
+        height: '100',
         color: [],
-        link: 'ugalok-12.jpg'
+        link: 'ugalok-12.jpg',
+        price: '130',
     },
     {
         id: 13,
         dirLink: '',
+        width: '186',
+        height: '100',
         color: [],
-        link: 'ugalok-13.jpg'
+        link: 'ugalok-13.jpg',
+        price: '130',
     },
     {
         id: 14,
         dirLink: '',
+        width: '186',
+        height: '100',
         color: [],
-        link: 'ugalok-14.jpg'
+        link: 'ugalok-14.jpg',
+        price: '130',
     },
     {
         id: 15,
         dirLink: '',
+        width: '186',
+        height: '100',
         color: [],
-        link: 'ugalok-15.jpg'
+        link: 'ugalok-15.jpg',
+        price: '130',
     },
     {
         id: 16,
         dirLink: '',
+        width: '186',
+        height: '100',
         color: [],
-        link: 'ugalok-16.jpg'
+        link: 'ugalok-16.jpg',
+        price: '130',
     },
     {
         id: 17,
         dirLink: '',
+        width: '186',
+        height: '100',
         color: [],
-        link: 'ugalok-17.jpg'
+        link: 'ugalok-17.jpg',
+        price: '130',
     },
     {
         id: 18,
         dirLink: '',
+        width: '186',
+        height: '100',
         color: [],
-        link: 'ugalok-18.jpg'
+        link: 'ugalok-18.jpg',
+        price: '130',
     },
     {
         id: 19,
         dirLink: '',
+        width: '186',
+        height: '100',
         color: [],
-        link: 'ugalok-19.jpg'
+        link: 'ugalok-19.jpg',
+        price: '130',
     },
     {
         id: 20,
         dirLink: '',
+        width: '186',
+        height: '100',
         color: [],
-        link: 'ugalok-20.jpg'
+        link: 'ugalok-20.jpg',
+        price: '130',
     },
 ]

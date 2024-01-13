@@ -6,6 +6,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { freeServece, restoration, tamirlash } from '../../Functions/Reduxes/Arizalar';
 import { countHeaderFunction } from '../../Functions/Reduxes/CountNavReducer';
+import { IoClose } from "react-icons/io5";
 
 export default function ServiceBox({name, count}) {
     const dispatch = useDispatch();
@@ -94,6 +95,9 @@ export default function ServiceBox({name, count}) {
                     padding: actChousen ? '.6rem' : '0rem',
                     border: actChousen ? 'solid 1px #ccc' : ''
                 }}>
+                    <div className='service_box_close' onClick={() => setActChousen(false)}>
+                        <IoClose />
+                    </div>
                     {
                         teamDate?.map((elem, index) => <Boxes key={index} {...elem} 
                                         index={index} setChose={setChose} 

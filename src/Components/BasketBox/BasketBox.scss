@@ -1,0 +1,189 @@
+.basketbox {
+    width: 80%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 1px #ccc;
+    border-radius: .4rem;
+    padding: .4rem;
+    box-shadow: 0 0 6px 4px rgba(0,0,0,0.20);
+
+    &:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+
+    .basketbox_img {
+        width: 30%;
+        height: 100%;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    .basketbox_title {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .basketbox_item {
+            width: 25%;
+
+            h3 {
+                font-size: 1.1rem;
+                margin-bottom: .4rem;
+            }
+
+            p {
+                font-size: 1.1rem;
+            }
+        }
+
+        .basketbox_inner {
+            width: 17%;
+
+            p {
+                font-size: 1.1rem;
+                margin-bottom: .4rem;
+            }
+
+            .basketbox_color {
+                display: flex;
+                
+                span {
+                    width: 1.6rem;
+                    height: 1.6rem;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        .basketbox_count {
+            width: 17%;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            justify-content: center;
+
+            button {
+                font-size: 1.3rem;
+                width: 70%;
+                border-radius: .8rem;
+                margin: .3rem 0;
+            }
+        }
+
+        .basketbox_actions {
+            width: 11%;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            justify-content: center;
+
+            svg {
+                font-size: 1.3rem;
+
+                &:first-child {
+                    margin-bottom: .8rem;
+                    color: blue;
+                }
+
+                &:last-child {
+                    color: rgb(168, 10, 42);
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width: 768px) {
+    .basketbox {
+        width: 100%;
+
+        .basketbox_title {
+            .basketbox_item {
+                h3 {
+                    font-size: .9rem;
+                }
+
+                p {
+                    font-size: .9rem;
+                }
+            }
+
+            .basketbox_inner {
+                p {
+                    font-size: .9rem;
+                }
+
+                .basketbox_color {
+                    span {
+                        width: 1rem;
+                        height: 1rem;
+                    }
+                }
+            }
+
+            .basketbox_count {
+                button {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 425px) {
+    .basketbox {
+        .basketbox_img {
+            height: 70%;
+        }
+
+        .basketbox_title {
+            .basketbox_item {
+                h3 {
+                    font-size: .7rem;
+                }
+
+                p {
+                    font-size: .5rem;
+                }
+            }
+
+            .basketbox_inner {
+                p {
+                    font-size: .7rem;
+                }
+
+                .basketbox_color {
+                    span {
+                        width: .7rem;
+                        height: .7rem;
+                    }
+
+                    p {
+                        font-size: .6rem;
+                    }
+                }
+            }
+
+            .basketbox_count {
+                button {
+                    font-size: .7rem;
+                }
+            }
+
+            .basketbox_actions {
+                svg {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}

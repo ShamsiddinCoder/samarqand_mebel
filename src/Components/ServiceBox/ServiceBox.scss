@@ -61,6 +61,18 @@
                 &::-webkit-scrollbar{
                     display: none;
                 }
+
+                .service_box_close {
+                    width: 100%;
+                    align-items: center;
+                    justify-content: flex-end;
+                    margin-bottom: .4rem;
+                    display: none;
+
+                    svg {
+                        font-size: 1.4rem;
+                    }
+                }
             }
 
             .service_box_usta {
@@ -177,6 +189,10 @@
                         }
                     }
                 }
+
+                .service_box_chousen {
+                    top: -12rem;
+                }
             }
         }
     }
@@ -246,6 +262,16 @@
 
                     button {
                         height: 2.6rem;
+                    }
+                }
+
+                .service_box_chousen {
+                    top: -10rem;
+                    height: 100vh;
+                    right: 0%;
+
+                    .service_box_close {
+                        display: flex;
                     }
                 }
             }

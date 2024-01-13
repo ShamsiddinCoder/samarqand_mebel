@@ -9,43 +9,44 @@ import {yumshoqMebel} from './ProductDate/YumshoqMebel';
 export const shopKatalog = [
     {
         id: 1,
-        name: 'Hammasi',
-        
-    },
-    {
-        id: 2,
         name: 'Ugalok',
         linkName: 'Ugalok/',
         products: ugalokKatalog,
+        price: '120',
+    },
+    {
+        id: 2,
+        name: 'Stol',
+        linkName: 'Stol/',
+        products: stol,
+        price: '120',
     },
     {
         id: 3,
-        name: 'Stol',
-        linkName: 'Stol/',
-        products: stol
+        name: 'Stul',
+        linkName: 'Stul/',
+        products: stul,
+        price: '120',
     },
     {
         id: 4,
-        name: 'Stul',
-        linkName: 'Stul/',
-        products: stul
+        name: 'Kompyuter Stoli',
+        linkName: 'kompyuter stol/',
+        products: kompyuterStoli,
+        price: '120',
     },
     {
         id: 5,
-        name: 'Kompyuter Stoli',
-        linkName: 'kompyuter stol/',
-        products: kompyuterStoli
+        name: 'Oshxona mebeli',
+        linkName: 'Kuxni/',
+        products: oshxona,
+        price: '120',
     },
     {
         id: 6,
-        name: 'Oshxona mebeli',
-        linkName: 'Kuxni/',
-        products: oshxona
-    },
-    {
-        id: 7,
         name: 'Yumshoq Mebellar',
         linkName: 'yumshoq mebel/',
         products: yumshoqMebel,
+        price: '120',
     },
 ]
